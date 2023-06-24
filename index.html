@@ -40,22 +40,19 @@
             <div class="about-me-text">
               <h3 class="about-me-heading">Hi, I'm Dihan Randila!</h3>
               <p class="about-me-description">
-                I'm a passionate and creative web developer based in Galle, Sri Lanka. At the age of 17, I have already embarked on my journey to explore the world of programming and technology.
+                Welcome to my portfolio website! I'm a passionate programmer, web developer, and graphic designer based in Galle, Sri Lanka. From a young age, I have been fascinated by the world of technology and its potential to shape the future. This curiosity led me to pursue a Python programming for beginners course at the University of Moratuwa, where I honed my coding skills and discovered my love for programming.
               </p>
               <p class="about-me-description">
-                I recently completed a Python programming for beginners course at the University of Moratuwa, which laid the foundation for my programming skills. Since then, I have been captivated by the possibilities that coding offers and the power of building digital solutions.
+                I specialize in creating visually appealing and user-friendly websites that deliver exceptional user experiences. With a keen eye for design and a passion for clean code, I bring ideas to life by blending creativity and technical expertise. My goal is to create websites that not only look stunning but also provide seamless functionality and intuitive navigation.
               </p>
               <p class="about-me-description">
-                As a web developer, I specialize in creating visually appealing and user-friendly websites. I enjoy the process of transforming ideas and designs into functional and interactive web experiences. With every project I undertake, my goal is to deliver high-quality solutions that meet both the technical and aesthetic aspects.
+                Besides web development, I am deeply interested in Telegram bot development. I love exploring the possibilities of bots and creating innovative solutions to simplify tasks and enhance user experiences. You can find tutorials and insights on my YouTube channel, where I share my knowledge and experiences in bot development.
               </p>
               <p class="about-me-description">
-                Apart from web development, I am also passionate about creating Telegram bots and sharing my knowledge through my YouTube channel. It's incredibly fulfilling to be able to inspire and teach others who are interested in this field.
+                When I'm not coding, you can find me indulging in my other passions. As a music lover, I enjoy exploring different genres and playing musical instruments. I also find inspiration in nature and love capturing its beauty through photography. Connecting with like-minded individuals and collaborating on exciting projects is something that always excites me.
               </p>
               <p class="about-me-description">
-                In my free time, I love to stay updated with the latest trends in technology, explore new programming languages and frameworks, and engage in outdoor activities that help me rejuvenate and find inspiration.
-              </p>
-              <p class="about-me-description">
-                Connect with me through the social media links below or visit my official website to explore my portfolio and learn more about my projects. Let's collaborate and create something amazing together!
+                Feel free to explore my portfolio and get in touch with me through the social media links below. Let's work together to create amazing digital experiences!
               </p>
             </div>
             <div class="about-me-image">
@@ -66,8 +63,7 @@
       </div>
     </section>
 
-    <script src="./assets/js/sweet-scroll.min.js"></script>
-    <script src="./assets/js/google-analytics.js"></script>
+    <script src="./assets/js/smooth-scroll.polyfills.min.js"></script>
     <script src="./assets/js/typed.js"></script>
     <script>
       var typed = new Typed("#typed", {
@@ -86,8 +82,16 @@
         showCursor: false,
         contentType: null,
       });
+
+      var scroll = new SmoothScroll('a[data-scroll]', {
+        speed: 800,
+        speedAsDuration: true,
+      });
     </script>
     <script src="./assets/js/main.js"></script>
   </div>
+  <script src="./assets/js/smooth-scroll.polyfills.min.js"></script>
+
 </body>
+  
 </html>
